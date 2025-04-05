@@ -1,0 +1,135 @@
+/* Header Container */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Header Title */
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #00bcd4;
+    transition: color 0.3s ease;
+  }
+  
+  .header h1:hover {
+    color: #00ffff;
+  }
+  
+  /* Navigation Links */
+  .nav-links ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .nav-links li:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #00bcd4;
+    color: #000;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #00bcd4;
+  }
+
+  /* 🔽 Resume Download Button Styling */
+  .resume-download {
+    margin-top: 15px;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 28px;
+    }
+  
+    .nav-links ul {
+      gap: 15px;
+    }
+  
+    .nav-links li {
+      font-size: 16px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      padding: 20px 10px;
+    }
+  
+    .nav-links ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .social-icons {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
