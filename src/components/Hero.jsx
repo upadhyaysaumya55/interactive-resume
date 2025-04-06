@@ -37,10 +37,6 @@ const Hero = () => {
                 I’m passionate about building scalable solutions. I love turning complex problems into elegant apps.
             </p>
 
-            <a href="/resume.pdf" download className="download-btn">
-            Download Resume
-            </a>
-
         </section>
     );
 };
