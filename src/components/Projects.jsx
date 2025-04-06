@@ -11,7 +11,7 @@ const projectData = [
     title: "Interactive Resume",
     description:
       "A modern interactive resume with React, animations, and download feature.",
-    link: "https://github.com/yourusername/interactive-resume",
+    link: "https://github.com/upadhyaysaumya55/interactive-resume.git",
   },
   // Add more projects here
 ];
