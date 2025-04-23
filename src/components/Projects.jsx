@@ -13,7 +13,12 @@ const projectData = [
       "A modern interactive resume with React, animations, and download feature.",
     link: "https://github.com/upadhyaysaumya55/interactive-resume.git",
   },
-  // Add more projects here
+  {
+    title: "Recipe Book",
+    description:
+      "A feature-rich recipe app using React. Includes add/edit/delete recipes, filters by category/ingredients, modals, testimonials, and localStorage persistence.",
+    link: "https://github.com/upadhyaysaumya55/recipe-book.git", // Replace with actual link if different
+  }
 ];
 
 const Projects = () => {
