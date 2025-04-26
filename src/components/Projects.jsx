@@ -17,7 +17,7 @@ const projectData = [
     title: "Recipe Book",
     description:
       "A feature-rich recipe app using React. Includes add/edit/delete recipes, filters by category/ingredients, modals, testimonials, and localStorage persistence.",
-    link: "https://github.com/upadhyaysaumya55/recipe-book.git", // Replace with actual link if different
+    link: "https://github.com/upadhyaysaumya55/recipe-book.git",
   }
 ];
 

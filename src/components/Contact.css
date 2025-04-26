@@ -4,23 +4,23 @@
     background-color: #f9f9f9;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
   }
   
   .contact:hover {
-    transform: scale(1.02); /* Slight zoom effect on hover */
+    transform: scale(1.02);
   }
   
   .contact h2 {
     font-size: 32px;
-    color: #007bff; /* Blue heading */
+    color: #007bff;
     margin-bottom: 20px;
     transition: color 0.3s ease-in-out;
   }
   
   .contact h2:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
   }
   
   .contact p {
@@ -31,7 +31,7 @@
   }
   
   .contact p:hover {
-    color: #007bff; /* Text changes color on hover */
+    color: #007bff;
     font-weight: bold;
   }
   
@@ -43,7 +43,7 @@
   }
   
   .contact p a:hover {
-    color: #ff4500; /* Orange hover effect */
+    color: #ff4500;
   }
   
   /* Responsive Design */

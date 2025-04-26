@@ -95,8 +95,7 @@ body.dark {
     background-color: #121212;
     color: #ffffff;
 }
-  
-/* Optional styling for card components, buttons etc. */
+
 .dark .project-card {
     background-color: #1e1e1e;
     color: #ffffff;

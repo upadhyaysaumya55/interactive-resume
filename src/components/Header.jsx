@@ -18,7 +18,7 @@ const Header = () => {
         </nav>
 
         <div className="resume-download">
-          <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer" className="download-btn">
+          <a href="/resume.pdf" download="My_Resume.pdf" target="blank" rel="noopener noreferrer" className="download-btn">
             Download Resume
           </a>
         </div>

@@ -13,7 +13,6 @@ const Hero = () => {
                 Hello, I'm <span>Saumya Kumari</span>
             </motion.h1>
 
-            {/* Typing animation below */}
             <TypeAnimation
                 sequence={[
                     "Full Stack Developer 💻",
