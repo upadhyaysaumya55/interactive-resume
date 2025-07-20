@@ -1,33 +1,69 @@
-import React from "react";
-import "./About.css"; 
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import { Player } from "@lottiefiles/react-lottie-player";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import animationData from "../assets/rocket.json";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <section className="about-section">
-      <h2>About Me</h2>
-      <p>
-        I am a passionate Full Stack Developer with 1 year of experience in web development.
-        I have a strong command over both front-end and back-end technologies, allowing me to
-        build complete and scalable applications.
-      </p>
-      <p>
-        On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as
-        React and Angular. I’m passionate about creating intuitive user interfaces that provide
-        an exceptional user experience. I pay great attention to detail, ensuring that the websites
-        or applications I develop are responsive, visually appealing, and accessible across different devices and browsers.
-      </p>
-      <p>
-        Moving to the back end, I’m proficient in server-side languages like Python and Node.js.
-        I have extensive experience working with databases such as MySQL, PostgreSQL, and Express, 
-        and I can design efficient database structures and write optimized queries.
-      </p>
-      <p>
-        I’m familiar with RESTful APIs and know how to integrate them into applications to enable
-        seamless communication between the front end and back end. Additionally, I have expertise 
-        in version control systems like Git. I enjoy staying up to date with the latest trends 
-        and technologies in the web development world, as it allows me to continually improve my 
-        skills and deliver cutting-edge solutions.
-      </p>
+    <section
+      id="about"
+      className="bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white py-16 px-6 sm:px-10 md:px-20 lg:px-32 xl:px-48"
+    >
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-14">
+        {/* Left Content */}
+        <motion.div
+          className="space-y-6 text-gray-300 text-base sm:text-lg leading-relaxed"
+          initial={{ opacity: 0, x: -60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          data-aos="fade-up"
+        >
+          <h2 className="text-4xl sm:text-5xl font-bold text-center lg:text-left text-cyan-400 mb-6 hover:text-cyan-300 transition duration-300 ease-in-out">
+            About Me
+          </h2>
+          <p className="hover:scale-[1.01] transition-transform duration-300" data-aos="fade-right">
+            I am a passionate <span className="font-semibold text-cyan-300">Frontend Web Developer</span> with 1 year of
+            experience in building modern, user-friendly interfaces using HTML,
+            CSS, and JavaScript frameworks like React.
+          </p>
+          <p className="hover:scale-[1.01] transition-transform duration-300" data-aos="fade-left">
+            I specialize in creating responsive layouts and dynamic user experiences.
+            I pay great attention to detail to ensure every interface is clean,
+            intuitive, and accessible across all devices and browsers.
+          </p>
+          <p className="hover:scale-[1.01] transition-transform duration-300" data-aos="fade-right">
+            I love using tools like Tailwind CSS for rapid UI development and
+            enjoy turning design concepts into beautiful, functional components.
+          </p>
+          <p className="hover:scale-[1.01] transition-transform duration-300" data-aos="fade-left">
+            I'm also experienced with version control tools like Git & GitHub, and
+            always stay up-to-date with evolving frontend technologies.
+          </p>
+        </motion.div>
+
+        {/* Right Animation */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, type: "spring" }}
+          data-aos="zoom-in"
+          className="w-full lg:w-1/2"
+        >
+          <Player
+            autoplay
+            loop
+            src={animationData}
+            style={{ height: "350px", width: "100%" }}
+            className="hover:scale-105 transition-transform duration-500 ease-in-out"
+          />
+        </motion.div>
+      </div>
     </section>
   );
 };
