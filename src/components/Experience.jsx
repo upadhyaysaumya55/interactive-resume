@@ -31,6 +31,13 @@ const Experience = () => {
         "Implemented CI/CD pipelines and containerized the Car Dealerships Review Portal using Docker and Kubernetes.",
       tech: "Technologies Used: Docker, Kubernetes, GitHub Actions",
     },
+    {
+    title: "Full-Stack Developer Intern",
+    subtitle: "Unified Mentor (April 2025 – Present)",
+    details:
+      "Working on real-world web projects involving modern full-stack technologies and version control. Collaborating with senior developers to build scalable applications.",
+    tech: "Technologies Used: HTML5, CSS3, JavaScript, React, Node.js, MongoDB, Express, Git, GitHub",
+  },
   ];
 
   return (

@@ -30,7 +30,7 @@ const Education = () => {
                     Bachelor's in Computer Application
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
-                    Aryabhatta Knowledge University, <br />
+                    Aryabhatta Knowledge University <br />
                     <span className="text-indigo-600 dark:text-indigo-400 font-medium">2022 - 2025</span>
                 </p>
             </motion.div>
