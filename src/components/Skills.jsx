@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   const skills = [
-    "HTML5", "Tailwind CSS", "JavaScript", "React", "Node.js", "Express.js", "Cloud Computing", "MongoDB",
+    "HTML5", "CSS3", "Tailwind CSS", "JavaScript", "React", "Node.js", "Express.js", "Cloud Computing", "MongoDB",
     "Django", "Git/GitHub", "Docker", "Kubernetes", "CI/CD", "SQL", "Microservices Architecture",
     "REST APIs", "Cloud Computing",
   ];

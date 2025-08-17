@@ -42,7 +42,7 @@ const About = () => {
           </h2>
 
           <p className="hover:scale-[1.02] transition-transform duration-300">
-            I am a dedicated <span className="font-semibold text-cyan-400">Full Stack Software Developer</span> specializing in designing and developing modern, scalable, and high-performance web applications using <span className="font-semibold text-pink-400">React</span> for dynamic front-end experiences and <span className="font-semibold text-cyan-400">Node.js</span> for robust back-end solutions.
+            I am a dedicated <span className="font-semibold text-cyan-400">Full Stack Software Developer</span> specializing in designing and developing modern, scalable, and high-performance web applications using <span className="font-semibold text-pink-400">React</span> for dynamic front-end experiences and <span className="font-semibold text-cyan-400">Node.js</span> and <span className="font-semibold text-cyan-400">Django</span> for robust back-end solutions.
           </p>
 
           <p className="hover:scale-[1.02] transition-transform duration-300">
