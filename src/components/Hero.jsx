@@ -47,9 +47,9 @@ const Hero = () => {
         transition={{ delay: 1, duration: 1 }}
         data-aos="fade-up"
       >
-        I’m a Full Stack Web Developer with expertise in both front-end and back-end technologies.
-        Whether it’s building dynamic UIs with React or server-side functionality with Node.js,
-        I’m passionate about building scalable solutions. I love turning complex problems into elegant apps.
+        I am a Full Stack Software Developer with comprehensive expertise in both front-end and back-end technologies. 
+        I specialize in creating dynamic, responsive user interfaces using React and developing robust server-side functionality with Node.js. 
+        I am passionate about designing scalable, efficient solutions and enjoy transforming complex challenges into elegant, high-quality applications.
       </motion.p>
     </section>
   );

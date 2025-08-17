@@ -5,8 +5,9 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   const skills = [
-    "HTML", "CSS", "JavaScript", "React", "Node.js", "Cloud Computing",
-    "Django", "Git/GitHub", "Docker", "Kubernetes", "CI/CD", "SQL", "Microservices"
+    "HTML5", "Tailwind CSS", "JavaScript", "React", "Node.js", "Express.js", "Cloud Computing", "MongoDB",
+    "Django", "Git/GitHub", "Docker", "Kubernetes", "CI/CD", "SQL", "Microservices Architecture",
+    "REST APIs", "Cloud Computing",
   ];
 
   useEffect(() => {
