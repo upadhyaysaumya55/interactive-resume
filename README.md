@@ -29,7 +29,7 @@ Prerequisites:
 
 Steps to run the project:
 1. Clone the repository:
-   git clone https://github.com/your-username/interactive-resume.git
+   git clone https://github.com/upadhyaysaumya55/interactive-resume.git
 
 2. Navigate to the project folder:
    cd interactive-resume
