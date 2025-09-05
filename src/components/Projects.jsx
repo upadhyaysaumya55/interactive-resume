@@ -15,13 +15,36 @@ const projectData = [
     description:
       "A modern interactive resume with React, animations, and download feature.",
     link: "https://github.com/upadhyaysaumya55/interactive-resume.git",
+    liveDemo: "https://interactive-resume-navy.vercel.app/",
   },
   {
     title: "Recipe Book",
     description:
       "A feature-rich recipe app using React. Includes add/edit/delete recipes, filters by category/ingredients, modals, testimonials, and localStorage persistence.",
     link: "https://github.com/upadhyaysaumya55/recipe-book.git",
-  }
+    liveDemo: "https://recipe-book-gilt-two.vercel.app/",
+  },
+  {
+    title: "Interactive Map",
+    description:
+      "A dynamic web application that allows users to explore locations on an interactive map. Features include clickable markers with detailed information, search and filter options, clustering, sidebar integration, and real-time updates. Built with React and modern mapping libraries for a smooth and engaging experience.",
+    link: "https://github.com/upadhyaysaumya55/Interactive-map.git",
+    liveDemo: "https://interactive-map-eight-roan.vercel.app/",
+  },
+  {
+    title: "Portfolio Site",
+    description:
+      "A personal portfolio website built with React to showcase projects, skills, and experience. Features responsive design, smooth navigation, project highlights, and contact integration for better visibility and networking.",
+    link: "https://github.com/upadhyaysaumya55/My-Portfolio.git",
+    liveDemo: "https://my-portfolio-tan-seven-14.vercel.app/",
+  },
+  {
+    title: "Weather App",
+    description:
+      "A responsive weather application built with React that fetches real-time weather data using an external API. Includes features like city-based search, current conditions, 5-day forecast, temperature conversion, and intuitive UI for a seamless user experience.",
+    link: "https://github.com/upadhyaysaumya55/SkyCast-Weather-App.git",
+    liveDemo: "https://sky-cast-weather-app-gamma.vercel.app/",
+  },
 ];
 
 const Projects = () => {
